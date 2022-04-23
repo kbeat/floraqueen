@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php-amqplib/php-amqplib": ">=3.0",
+        "mailchimp/transactional": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "QueueTest.php",
+            "MailchimpService.php"
+        ]
+    }
+}
